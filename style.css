@@ -1,0 +1,44 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+:root {
+    --primary-color: #396E94;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A42212;
+    --accent2-color: white;
+    --heading-font: "IM Fell French Canon";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+    --headline-color-on-white: #396E94;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #396E94;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #396E94;
+    --nav-link-color: #396E94;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+}
+injected stylesheet
+:host, :root {
+    --rem: 16;
+}
