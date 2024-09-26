@@ -18,7 +18,7 @@ margin: 0 auto;
 padding: 4em;
 font-size: 18px;
 text-align: center;
-background-color: #ACB0AB;
+background-color: whitesmoke;
 }
 :root {
 --primary-color: #396E94;
@@ -64,6 +64,37 @@ injected stylesheet
   font-weight: <weight>;
   font-style: normal;
 }
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amiri-bold {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amiri-regular-italic {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amiri-bold-italic {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 h1{
     font-family: teko, Arial, Helvetica, sans-serif;
+    color:#454B54;
+}
+h2{
+    font-family:Amiri-bold, Times New Roman, Times, serif
+}
+header{
+    background-color:#ACB0AB;
 }
