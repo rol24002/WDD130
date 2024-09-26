@@ -40,15 +40,15 @@ injected stylesheet
 :host, :root {
 --rem: 16;
 }
-#primary{
+.primary{
     background-color: #ACB0AB;
 }
-#secondary{
+.secondary{
     background-color: #454B54;
 }
-#A1{
+.A1{
     background-color: #53698a;
 }
-#A2{
+.A2{
     background-color: #463829;
 }
