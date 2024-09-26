@@ -18,6 +18,7 @@ margin: 0 auto;
 padding: 4em;
 font-size: 18px;
 text-align: center;
+background-color: #ACB0AB;
 }
 :root {
 --primary-color: #396E94;
@@ -51,4 +52,16 @@ injected stylesheet
 }
 .A2{
     background-color: #463829;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1{
+    font-family: noto-sans-jp, Arial, Helvetica, sans-serif;
 }
