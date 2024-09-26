@@ -45,13 +45,16 @@ injected stylesheet
     background-color: #ACB0AB;
 }
 .secondary{
-    background-color: #454B54;
+    background-color: #1d1f23;
 }
 .A1{
     background-color: #53698a;
 }
 .A2{
-    background-color: #463829;
+    background-color: #454B54;
+}
+.A3{
+  background-color: #463829;
 }
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -98,3 +101,13 @@ h2{
 header{
     background-color:#ACB0AB;
 }
+#pfont{
+  font-family:Amiri-bold, Times New Roman, Times, serif
+}
+#hfont{
+  font-family: teko, Arial, Helvetica, sans-serif;
+}
+.colored{
+  color: #1d1f23
+}
+
