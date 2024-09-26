@@ -55,13 +55,15 @@ injected stylesheet
 }
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
 
-.noto-sans-jp-<uniquifier> {
-  font-family: "Noto Sans JP", sans-serif;
+.teko-<uniquifier> {
+  font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 h1{
-    font-family: noto-sans-jp, Arial, Helvetica, sans-serif;
+    font-family: teko, Arial, Helvetica, sans-serif;
 }
