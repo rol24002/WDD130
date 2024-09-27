@@ -90,7 +90,10 @@ h2{
 header{
     background-color:#637ea7;
     color:#2b2923;
-}
+    box-shadow: #475975;
+    border-style: solid;
+    border-right:#475975;
+    border-bottom: #475975;
 #pfont{
   font-family:Amiri-bold, Times New Roman, Times, serif
 }
