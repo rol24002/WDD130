@@ -126,7 +126,11 @@ a:hover{
 a: visited{
   color: #53698a;
 }
-#tabs:{
+nav{
   background-color: #ACB0AB;
   border-color: #396E94;
+}
+.colors{
+  margin-left: auto;
+  margin-right: auto;
 }
