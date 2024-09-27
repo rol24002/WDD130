@@ -18,43 +18,32 @@ margin: 0 auto;
 padding: 4em;
 font-size: 18px;
 text-align: center;
-background-color: whitesmoke;
+background-color: c3bba2;
 }
-:root {
---primary-color: #396E94;
---secondary-color: #E7C24F;
---accent1-color: #A42212;
---accent2-color: white;
---heading-font: "IM Fell French Canon";
---paragraph-font: Lato, Helvetica, sans-serif;
---headline-color-on-white: #396E94;
---headline-color-on-color: white;
---paragraph-color-on-white: #396E94;
---paragraph-color-on-color: white;
---paragraph-background-color: #396E94;
---nav-link-color: #396E94;
---nav-background-color: #D4AC0D;
---nav-hover-link-color: white;
---nav-hover-background-color: #396E94;
-}
-injected stylesheet
-:host, :root {
---rem: 16;
-}
+:roo
 .primary{
-    background-color: #ACB0AB;
+    background-color: #c3bba2;
+    height: 100px;
 }
 .secondary{
-    background-color: #1d1f23;
+    background-color: #141518;
+    height: 200px;
+    width: 200px;
 }
 .A1{
-    background-color: #53698a;
+    background-color: #637ea7;
+    height: 200px;
+    width: 200px;
 }
 .A2{
     background-color: #454B54;
+    height: 200px;
+    width: 200px;
 }
 .A3{
-  background-color: #463829;
+  background-color: #2b2923;
+  height: 200px;
+  width: 200px;
 }
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -99,7 +88,8 @@ h2{
     font-family:Amiri-bold, Times New Roman, Times, serif
 }
 header{
-    background-color:#ACB0AB;
+    background-color:#637ea7;
+    color:#2b2923;
 }
 #pfont{
   font-family:Amiri-bold, Times New Roman, Times, serif
@@ -108,8 +98,8 @@ header{
   font-family: teko, Arial, Helvetica, sans-serif;
 }
 .colored{
-  color: #1d1f23
-}
+  background-color: #1d1f23;
+  color:c3bba2;}
 td{
   max-height: 500px;
   min-height: 200px;
@@ -127,10 +117,15 @@ a: visited{
   color: #53698a;
 }
 nav{
-  background-color: #ACB0AB;
-  border-color: #396E94;
+  background-color: c3bba2;
+  border-color: #637ea7;
 }
 .colors{
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
+}
+hr{
+  line-height: 20px;
+  border-color: #2b2923;
 }
