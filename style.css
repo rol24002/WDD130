@@ -95,6 +95,7 @@ header{
     border-style: solid;
     border-right:#475975;
     border-bottom: #475975;
+}
 #pfont{
   font-family:Amiri-bold, Times New Roman, Times, serif
 }
@@ -120,16 +121,15 @@ a:hover{
 a: visited{
   color: #53698a;
 }
-nav{
-  background-color: #c3bba2;
-  border-color: #7290bd;
-}
 .colors{
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
 }
 hr{
-  line-height: 20px;
-  border-color: #2b2923;
+  border-top: 20px solid #2b2923;
+}
+#navpage{
+  background-color: #c3bba2;
+  border-color: #7290bd;
 }
