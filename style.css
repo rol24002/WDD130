@@ -32,7 +32,7 @@ background-color: c3bba2;
     width: 200px;
 }
 .A1{
-    background-color: #637ea7;
+    background-color: #7290bd;
     height: 200px;
     width: 200px;
 }
@@ -89,7 +89,7 @@ h2{
     font-family:Amiri-bold, Times New Roman, Times, serif
 }
 header{
-    background-color:#637ea7;
+    background-color:#7290bd;
     color:#2b2923;
     box-shadow: #475975;
     border-style: solid;
@@ -121,8 +121,8 @@ a: visited{
   color: #53698a;
 }
 nav{
-  background-color: c3bba2;
-  border-color: #637ea7;
+  background-color: #c3bba2;
+  border-color: #7290bd;
 }
 .colors{
   margin-left: auto;
