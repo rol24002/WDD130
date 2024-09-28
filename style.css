@@ -18,33 +18,33 @@ margin: 0 auto;
 padding: 4em;
 font-size: 18px;
 text-align: center;
-background-color: c3bba2;
+background-color: white;
 }
-:roo
 .primary{
     background-color: #c3bba2;
     height: 100px;
+    width: 100px;
     border:#141518;
 }
 .secondary{
     background-color: #141518;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 .A1{
     background-color: #7290bd;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 .A2{
     background-color: #454B54;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 .A3{
   background-color: #48463a;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -133,3 +133,6 @@ hr{
   background-color: #c3bba2;
   border-color: #7290bd;
 }
+td{
+  justify-content: space-between;
+  border: solid 5px #48463a;
