@@ -42,7 +42,7 @@ background-color: c3bba2;
     width: 200px;
 }
 .A3{
-  background-color: #25241f;
+  background-color: #48463a;
   height: 200px;
   width: 200px;
 }
@@ -103,8 +103,8 @@ header{
   font-family: teko, Arial, Helvetica, sans-serif;
 }
 .colored{
-  background-color: #1d1f23;
-  color:c3bba2;}
+  background-color: #7290bd;
+  color: #48463a;}
 td{
   max-height: 500px;
   min-height: 200px;
@@ -118,8 +118,8 @@ a:hover{
   text-decoration: underline;
   color: #454B54;
 }
-a: visited{
-  color: #53698a;
+a:visited{
+  color: #48463a;
 }
 .colors{
   margin-left: auto;
@@ -127,7 +127,7 @@ a: visited{
   justify-content: space-between;
 }
 hr{
-  border-top: 20px solid #2b2923;
+  border-top: 20px solid #48463a;
 }
 #navpage{
   background-color: #c3bba2;
