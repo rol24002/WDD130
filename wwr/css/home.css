@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
 
 #background {
     height: 725px;
@@ -9,11 +11,14 @@
   }
 body{
     background-color: #c3bba2;
+    padding: 0;
+    margin: 0;
   }
 .book, .join{
     background-color: #c3bba2;
     color:#141518;
     text-decoration: none;
+    font-size: 18px;
   }
 .book:hover, .join:hover{
     background-color:#141518;
@@ -55,16 +60,23 @@ footer{
 .home-title{
   color: #454B54;
   font-weight: bold;
+  font-size: 2em;
 }
 h1{
-  font-family: teko, Arial, Helvetica, sans-serif;
+  font-family: Bebas Neue,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
+  font-family: Bebas Neue,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #141518;
+  margin: 0;
+}
+h3{
   font-family: teko, Arial, Helvetica, sans-serif;
+  color: #141518;
 }
 h4{
   color: #141518;
-  font-family:Quicksand, Times New Roman, Times, serif;
+  font-family: teko, Arial, Helvetica, sans-serif;
 }
 .icon{
     width: 80px;
@@ -74,12 +86,14 @@ h4{
 }
 .msg {
     background-color: #454B54;
+    line-height: 1.5em;
   }
     .msg h2, h3{
     color: #7290bd;
     }
     .msg p{
     color:#c3bba2;
+    font-size: .8em;
      }
 main section{
     text-align: center;
@@ -96,3 +110,6 @@ nav{
          background-color: #454B54;
          color: #7290bd;
         }
+p{
+  font-family: teko, Arial, Helvetica, sans-serif;
+}
