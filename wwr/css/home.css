@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+
 #background {
     height: 725px;
     background-color: #c3bba2;
@@ -51,8 +56,15 @@ footer{
   color: #454B54;
   font-weight: bold;
 }
+h1{
+  font-family: teko, Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: teko, Arial, Helvetica, sans-serif;
+}
 h4{
   color: #141518;
+  font-family:Quicksand, Times New Roman, Times, serif;
 }
 .icon{
     width: 80px;
