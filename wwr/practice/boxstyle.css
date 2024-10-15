@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+.qbox1{
+    margin: 20px;
+    border: 15px solid brown;
+    padding: 10px 15px;
+    Width: 500px;
+    background-color: violet;
+}
+.qbox2{
+    margin: 20px;
+    border: 15px solid brown;
+    padding: 10px 15px;
+    Width: 500px;
+    background-color: violet;
+}
+.qbox3{
+    margin: 20px;
+    border: 15px solid brown;
+    padding: 10px 15px;
+    Width: 500px;
+    background-color: violet;
+    font-family: spicy rice;
+}
