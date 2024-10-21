@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 ul{
     list-style: none;
+    display: flexbox;
 }
 li{
     font-family: teko, Arial, Helvetica, sans-serif;
@@ -16,7 +17,7 @@ li{
   }
   li a:visited{
     color:#7290bd;
-  }s
+  }
 links {
     background-color: #c3bba2;
     line-height: 1.5em;
