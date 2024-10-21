@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ul{
+    list-style: none;
+}
+li{
+    font-family: teko, Arial, Helvetica, sans-serif;
+  }
+  li a{
+    text-decoration: none;
+  }
+  li a:hover{
+    color: #7290bd;
+    text-decoration:underline;
+  }
+  li a:visited{
+    color:#7290bd;
+  }s
+links {
+    background-color: #c3bba2;
+    line-height: 1.5em;
+    padding: 35px;
+    border: #454B54 solid 3px;
+  }
+    .links h2, h3{
+    color: #454B54;
+    }
+    .links p{
+    color:#7290bd;
+    font-size: .8em;
+    padding-bottom: 15px;
+     }
