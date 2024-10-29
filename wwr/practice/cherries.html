@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice  |Cherries| Assignment</title>
+    <style>
+        body{
+            max-width: 1600px;
+        }
+        .yup{
+            display: grid;
+            grid-template-columns: 20px 2fr 2fr 20px;
+            grid-template-rows: 20px 2fr 2fr 20px;
+            max-width: 1500px;
+        }
+        .background{
+             background-image: linear-gradient(90deg, white 50%, gray 50%);
+             grid-column: 2/4;
+             grid-row: 2/4;
+             position: center;
+        }
+        img{
+            width:auto;
+            height: 100%;
+            grid-column: 2/3;
+            grid-row: 2/4;
+            position: center;
+        }
+        h1{
+            font-size: 10em;
+            font-family:'Times New Roman', Times, serif;
+            color: black;
+            grid-column: 2/4;
+            grid-row: 2/3;
+            justify-content: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        h2{
+            font-size: 5em;
+            font-family: 'Times New Roman', Times, serif;
+            color: red;
+            grid-column: 3/4;
+            grid-row: 3/4;
+            justify-content: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="yup">
+        <div class="background">
+    <h1>Tart & Sweet</h1>
+    <img src="w06_cherries.png" alt="Cherries">
+    <h2>Cherries</h2>
+        </div>
+    </div>
+</body>
+</html>
