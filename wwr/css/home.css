@@ -88,6 +88,7 @@ header{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: -100px;
+  
 }
   #hero-box{
     grid-column: 1/4;
@@ -98,20 +99,21 @@ header{
   #hero-img{
     width: 100%;
     margin-top: 100px;
+    border-bottom: #454B54  solid 20px;
     }
   #hero-msg{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
     z-index: 2;
     border: solid #454B54 5px;
-    margin-top: 80%;
     background-color: rgb(114, 144, 189, 70%);
+    margin-bottom: 20px;
   }
   #hero-msg h1, #hero-msg h4 {
     text-align: center;
     }
 .home-title{
-  color: #454B54;
+  color:#c3bba2;
   font-weight: bold;
   font-size: 2em;
   margin-top: 10px;
