@@ -3,6 +3,9 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DynaPuff:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DynaPuff:wght@400..700&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
@@ -39,9 +42,10 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-height: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: Averia Sans Libre, Verdana, Geneva, Tahoma, sans-serif;
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +67,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family:'DynaPuff', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
@@ -72,35 +76,39 @@ p {
   min-width: 350px;
   margin: 30px auto;
   text-align: center;
+  justify-content: space-between;
 }
 .colors th {
   background-color: #999;
 }
 .colors td{
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #FEFAE0;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #283618;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #606C38;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #DDA15E;
+}
+.accent3{
+  background-color: #BC6C25;
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: #283618;
+  color: #FEFAE0;
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #DDA15E;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
