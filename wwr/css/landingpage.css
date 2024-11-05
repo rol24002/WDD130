@@ -37,3 +37,10 @@ links {
   height: 80px;
   border-radius: 2em;
 }
+box{
+  display: flexbox;
+  justify-content: space-evenly;
+  width: 100%;
+  align-content: center;
+  flex-direction: row;
+}
