@@ -1,15 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700|Bebas+Neue:wght@400..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+main{
+  width: 90%;
+  margin: 0 auto;
+}
 ul{
     list-style: none;
-    display: flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c3bba2;
+    line-height: 1.5em;
+    padding: 5em 30em;
+    border: #454B54 solid 3px;
+    width: 100%;
+    height: auto;
 }
+  ul h2, h3{
+  color: #454B54;
+  }
+  ul p{
+  color:#7290bd;
+  font-size: .8em;
+  padding-bottom: 15px;
+  }
 li{
     font-family: teko, Arial, Helvetica, sans-serif;
+    width:80px;
+    height: 80px;
+    border-radius: 2em;
+    padding: 5px;
+    margin: 5px;
+    -ms-flex-align: center;
+    align-items: center;
+    flex: 1;
+    min-width: 100px;
   }
   li a{
     text-decoration: none;
+    color: inherit;
   }
   li a:hover{
     color: #7290bd;
@@ -18,17 +46,17 @@ li{
   li a:visited{
     color:#7290bd;
   }
+/*
 .links {
     display: flexbox;
-    justify-content: space-evenly;
-    width: 100%;
-    align-content: center;
+    align-content: space-between;
     flex-direction: row;
     background-color: #c3bba2;
     line-height: 1.5em;
     padding: 35px;
     border: #454B54 solid 3px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 100%;
   }
     .links h2, h3{
     color: #454B54;
@@ -42,4 +70,4 @@ li{
   width:80px;
   height: 80px;
   border-radius: 2em;
-}
+}*/
