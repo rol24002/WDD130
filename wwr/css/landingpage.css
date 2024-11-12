@@ -7,7 +7,7 @@ main{
 ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #c3bba2;
     line-height: 1.5em;
     padding: 5em 30em;
@@ -46,28 +46,8 @@ li{
   li a:visited{
     color:#7290bd;
   }
-/*
-.links {
-    display: flexbox;
-    align-content: space-between;
-    flex-direction: row;
-    background-color: #c3bba2;
-    line-height: 1.5em;
-    padding: 35px;
-    border: #454B54 solid 3px;
-    flex-wrap: nowrap;
-    width: 100%;
+  li img{
+    width:80px;
+    height: 80px;
+    border-radius: 2em;
   }
-    .links h2, h3{
-    color: #454B54;
-    }
-    .links p{
-    color:#7290bd;
-    font-size: .8em;
-    padding-bottom: 15px;
-    }
-.logo{
-  width:80px;
-  height: 80px;
-  border-radius: 2em;
-}*/
