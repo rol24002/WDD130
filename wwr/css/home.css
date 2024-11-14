@@ -34,6 +34,9 @@ body{
     text-align: center;
     width: 100%;
   }
+.catch-msg{
+  max-width: 100%;
+}
 .card-img{
   transition: transform .5s;
   
@@ -164,6 +167,10 @@ main{
       main section img{
       box-sizing: border-box;
       }
+    .2-grid{
+      display:grid;
+
+    }
 .msg {
     background-color: #454B54;
     line-height: 1.5em;
@@ -201,6 +208,10 @@ nav{
         }
 p{
   font-family: teko, Arial, Helvetica, sans-serif;
+}
+.price{
+  border-radius: 10;
+   max-width: 200px;
 }
 .rafting-card{
   margin: 200px 0px;
