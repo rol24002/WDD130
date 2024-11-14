@@ -9,26 +9,42 @@
             background-color: black;
         }
         main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
             justify-items: center;
-            border-radius: 90px;
+            border-radius: 170;
+            height: 550px;
         }
         .post{
             margin: 0;
             padding: 0;
-            width: 300px;
+            width: 450px;
+            justify-items: center;
         }
+            .post h2{
+                font-size: 20px;
+                text-align: center;
+                color:rgb(43, 42, 46);
+            }
         .bot {
             background-color: rgb(41, 41, 104);
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            align-items: center;
             justify-content: space-evenly;
+            justify-items: center;
+            align-content: center;
             margin: 0;
             padding: 0;
-            min-width: 300px;
+            min-width: 450px;
+            border-width: 10px;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 15%;
         }
             .bot h3, p{
                 color:aliceblue;
+                margin: 0;
+                padding: 1px;
             }
             .bot>div{
                 display: grid;
@@ -48,6 +64,10 @@
         img{
             margin: 0;
             padding: 0;
+            width: 450px;
+            border-width: 10px;
+            border-top-left-radius: 15%;
+            border-top-right-radius: 15%;
         }
     </style>
 </head>
@@ -66,7 +86,7 @@
                 <p>likes</p>
             </div>
             <div class="views">
-                <h3>5356</h3>
+                <h3>2<sub>M</sub></h3>
                 <p>views</p>
             </div>
             <div class="comments">
