@@ -29,6 +29,9 @@ body{
     background-color:#141518;
     color: #48463a;
   }
+.boop{
+  grid-column: 5/11;
+}
 .button{
     position: center;
     text-align: center;
@@ -37,6 +40,14 @@ body{
 .catch-msg{
   max-width: 100%;
 }
+.catch-msg2{
+  max-width: 100%;
+}
+  .catch-msg2 .boat{
+    grid-column:  1/4;
+    max-width: 100%;
+    height: auto; 
+  }
 .card-img{
   transition: transform .5s;
   
@@ -79,6 +90,13 @@ footer{
     footer .social img{
       padding-top: 15px;
     }
+.gallery{
+  grid-column: 1/11;
+  margin-top: 50px;
+}
+  .gallery img {
+  border: 5px solid #454B54;
+  }
 header{
     background-color: #7290bd;
     position: fixed;
@@ -167,10 +185,6 @@ main{
       main section img{
       box-sizing: border-box;
       }
-    .2-grid{
-      display:grid;
-
-    }
 .msg {
     background-color: #454B54;
     line-height: 1.5em;
@@ -210,9 +224,34 @@ p{
   font-family: teko, Arial, Helvetica, sans-serif;
 }
 .price{
-  border-radius: 10;
+   border-radius: 10;
    max-width: 200px;
+   grid-column: 1/11;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 20px;
 }
+  .price h1 {
+    grid-column: span 3;
+    text-align: center;
+  } 
+  .price ul{
+   list-style-type: none; 
+  }
+  .price li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+.price-box {
+  background-color: #e2e2e2;
+  border: 2px solid #c3bba2;
+  padding: 20px;
+}
+  .price-box h2 {
+    font-size: 1.5em;
+  }
+ 
 .rafting-card{
   margin: 200px 0px;
   grid-column: 5/7;
@@ -265,11 +304,3 @@ p{
   footer {
       margin-top: 25px;
   }
-}
-          
-/*
-.tubing-rafting{
-  margin: 200px 0px;
-  grid-area: 2/5/3/7;
-}
-  */
