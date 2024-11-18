@@ -14,6 +14,7 @@ body{
     background-color: #c3bba2;
     padding: 0;
     margin: 0;
+    max-width: 1280px;
   }
 
 .book, .join{
@@ -29,9 +30,6 @@ body{
     background-color:#141518;
     color: #48463a;
   }
-.boop{
-  grid-column: 5/11;
-}
 .button{
     position: center;
     text-align: center;
@@ -40,17 +38,8 @@ body{
 .catch-msg{
   max-width: 100%;
 }
-.catch-msg2{
-  max-width: 100%;
-}
-  .catch-msg2 .boat{
-    grid-column:  1/4;
-    max-width: 100%;
-    height: auto; 
-  }
 .card-img{
   transition: transform .5s;
-  
 }
   .card-img:hover{
     opacity: .6;
@@ -90,13 +79,6 @@ footer{
     footer .social img{
       padding-top: 15px;
     }
-.gallery{
-  grid-column: 1/11;
-  margin-top: 50px;
-}
-  .gallery img {
-  border: 5px solid #454B54;
-  }
 header{
     background-color: #7290bd;
     position: fixed;
@@ -223,34 +205,6 @@ nav{
 p{
   font-family: teko, Arial, Helvetica, sans-serif;
 }
-.price{
-   border-radius: 10;
-   max-width: 200px;
-   grid-column: 1/11;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 20px;
-   padding: 20px;
-}
-  .price h1 {
-    grid-column: span 3;
-    text-align: center;
-  } 
-  .price ul{
-   list-style-type: none; 
-  }
-  .price li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-.price-box {
-  background-color: #e2e2e2;
-  border: 2px solid #c3bba2;
-  padding: 20px;
-}
-  .price-box h2 {
-    font-size: 1.5em;
-  }
  
 .rafting-card{
   margin: 200px 0px;
@@ -262,6 +216,12 @@ p{
   grid-column: 8/10;
   grid-row: 2/3;
 }
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
@@ -304,3 +264,119 @@ p{
   footer {
       margin-top: 25px;
   }
+
+
+
+
+  
+  /* Pricing page CSS*/
+   /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Teko', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+
+/* Catch Section Styling */
+#catch-msg2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boat {
+  width: 50%;
+  /* Adjust height as needed */
+  height: 300px;
+  object-fit: cover;
+}
+
+.boop {
+  width: 50%;
+  padding: 2rem;
+}
+
+.boop h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.boop p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Gallery Section Styling */
+.gallery {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+/* Pricing Section Styling */
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.price h1 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.price p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+}
+
+.price-box {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.price-box h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.price-box h1 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.price-box ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.price-box li {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
