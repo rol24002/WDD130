@@ -5,13 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mad Madam Madster  | Madison Rollins Digital Resume | Home</title>
     <link href="css/home.css" rel="stylesheet" type="text/css">
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex   
+ > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className   
+ += " active";   
+
+
+  // Get the current slide and its image source
+  let currentSlide = slides[slideIndex - 1];
+  let imgSrc = currentSlide.querySelector('img').src;
+
+  // Set the source of the hero-img to the current slide's image source
+  document.getElementById('hero-img').src = imgSrc;
+
+  setTimeout(showSlides, 10000); // Change image every 10 seconds
+}
+        </script>
 </head>
 <body>
     <header>
-        <a href="index.html" id="logo_link">
-            <img class="logo" src="images/logo-png.png" alt="Bear River Rafters Logo"> 
-        </a>
-        <h5>Madison Rollins</h5>
+        <div class="navs-op">
+            <a href="index.html" id="logo_link">
+                <img class="logo" src="images/logo-transparent-png.png" alt="my personal logo"> 
+            </a>
+            <h5>Madison Rollins</h5>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="theatre.html">Theatre</a>
@@ -20,8 +55,37 @@
         </nav>
     </header>
     <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/fam.jpg" alt="My Family"> 
+        <div class="hero-box">
+          <img id="hero-img" alt="My Family">  
+          <div class="slideshow-container">
+      
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/rolFam22-1.HEIC" alt="My Family in 2022 -1 ">
+              <div class="text">Caption Text</div>
+            </div>
+      
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/rolFam22-2.HEIC" alt="My Family in 2022 -1 ">
+              <div class="text">Caption Two</div>
+            </div>
+      
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/rolFam23-1.JPG" alt="My Family in 2022 -1 ">
+              <div class="text">Caption Three</div>
+            </div>
+      
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>   
+      
+        </div>
         </div>
         <section id="hero-msg">
             <h1 class="home-title">Madsion Rollins</h1>
@@ -48,19 +112,19 @@
             I strive to be a compassionate wife and mother, an accomplished citizen of this great nation, an energetic 
             philanthropist, and a hard working woman in STEM. </p>
         </section>
-        <section class="3word">
-            <div>
-                <img src="#">
+        <section class="word3">
+            <div class="word3A">
+                <img src="images/creative-thinking-icon.png" class="icon">
                 <h3> Innovate </h3>
                 <p>“Creativity is thinking up new things. Innovation is doing new things.” —Theodore Levitt</p>
             </div>
-            <div>
-                <img src="#">
+            <div class="word3B">
+                <img src="images/heart-care-icon.png" class="icon">
                 <h3> Cultivate </h3>
                 <p>“There is no better exercise for your heart than reaching down and helping to lift someone up." -Bernard Meltzer</p>
             </div>
-            <div>
-                <img src="#">
+            <div class="word3C">
+                <img src="images/actor-celebrities-icon.png" class="icon">
                 <h3> Activate </h3>
                 <p>“The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.”
                     — Ronald Reagan</p>
@@ -69,18 +133,18 @@
     </main>
     <footer>
         <section class="top">
-            <img class="logo" src="images/logo-png.png" alt="Bear River Rafters Logo"> 
+            <img class="logo" src="images/logo-transparent-png.png" alt="Bear River Rafters Logo"> 
             <p><a href="site-plan.html">Site Plan</a></p>
             <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook-icon.png" alt="fb icon" class="icon">
+                    <img src="images/facebook-app-round-white-icon.png" alt="fb icon" class="icon">
                 </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon" class="icon">
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/youtube-app-white-icon.png" alt="youtube icon" class="icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/Insta.png" alt="instagram icon" class="icon">
+                    <img src="images/instagram-white-icon.png" alt="instagram icon" class="icon">
                 </a>
             </div>
         </section>
