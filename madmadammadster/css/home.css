@@ -264,7 +264,7 @@ isn't about prices but to save time I used my code
 from my page 2 and remastered it to fit my need. */
 .price {
     display: flexbox;
-    justify-items: center;
+    justify-content: center;
     padding: 2rem;
     margin-top: 2rem;
     border-radius: 10px;
@@ -332,7 +332,7 @@ from my page 2 and remastered it to fit my need. */
   }
   .price-box img{
     width: 250px;
-    margin: .5rem;
+    margin: .5rem auto;
     box-shadow: 5px 5px 10px #283618;
     text-align: center;
   }
