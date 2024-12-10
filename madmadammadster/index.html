@@ -9,13 +9,19 @@
         * {box-sizing: border-box}
         body {font-family: Verdana, sans-serif; margin:0}
         .mySlides {display: none}
-        img {vertical-align: middle;}
+        img {
+        vertical-align: middle;
+        margin: 0, auto;
+        justify-self: center;
+        text-align: center;
+        }
         
         /* Slideshow container */
         .slideshow-container {
-          max-width: 90%;
           position: relative;
-          margin: auto;
+          margin: 100px, auto;
+          display: flex;
+          justify-content: center;
         }
         
         /* Next & previous buttons */
@@ -98,7 +104,7 @@
         }
         .hero-box img{
           text-align: center;
-          margin: 0;
+          margin: 100px auto;
         }
         </style>
 </head>
@@ -146,13 +152,7 @@
             
 
           </div>
-          <br>
-          <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>   
-       
+         
           <script>
             let slideIndex = 0;
             showSlides();
