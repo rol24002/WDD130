@@ -59,9 +59,9 @@ main {
 /* Unordered list styles */
 ul {
   list-style: none;
-  display: inline-flex;
-  flex-wrap: wrap; /* Allow items to wrap to next line */
-  justify-content: space-between; /* Distribute items evenly */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow items to wrap to next line */ /* Distribute items evenly */
   list-style: none;
   background-color: rgb(149, 192, 184);
   line-height: 1.5em;
@@ -83,7 +83,7 @@ ul p {
 
 /* List item styles */
 li {
-  font-family: "Barrio", Arial, Helvetica, sans-serif;
+  font-family: Barrio, Arial, Helvetica, sans-serif;
   border-radius: 2em;
   width:80px;
   height: 80px;
@@ -125,5 +125,6 @@ li a:visited {
   align-self: center;
 } 
 h3 h4{
-  font-family: 'Fontdiner Swanky', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Fontdiner Swanky, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkgoldenrod;
 }
