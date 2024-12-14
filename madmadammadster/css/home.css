@@ -80,8 +80,8 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     }
 #faq{
   grid-column: 1/3;
@@ -233,7 +233,7 @@ main{
     line-height: 1.5em;
     box-shadow: 5px 5px 10px #283618;
     width: 90%;
-    grid-column: 2/3;
+    grid-row: 2/3;
     z-index: 2;
   }
     .msg h2, h3{
@@ -245,8 +245,8 @@ main{
     padding-bottom: 15px;
      }
      .mountains{
-      max-width: 60%;
-      grid-column: 1/2;
+      width: 900px;
+      grid-row: 1/3;
     }
 .muah{
   width: 30%;
@@ -349,6 +349,11 @@ from my page 2 and remastered it to fit my need. */
     box-shadow: 5px 5px 10px #283618;
     text-align: center;
   }
+.references{
+  grid-row: 3/4;
+  display: flex;
+  justify-content: space-evenly;
+}
 .word3{
   justify-self: right;
   align-self: center;
@@ -373,7 +378,7 @@ from my page 2 and remastered it to fit my need. */
     grid-column: 1/3;
     grid-row: 1/2;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   
   /* On smaller screens, decrease text size */
