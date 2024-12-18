@@ -52,23 +52,19 @@ header {
 
 /* Main content styles */
 main {
-  width: 90%;
+  width: 1100px;
   margin: 0 auto;
 }
-
-/* Unordered list styles */
-ul {
+ul{
+  display: inline-flex;
+  flex-wrap: wrap;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; /* Allow items to wrap to next line */ /* Distribute items evenly */
   list-style: none;
+  width: 900px;
   background-color: rgb(149, 192, 184);
   line-height: 1.5em;
-  padding: 5em 30em;
+  padding: 3rem;
   border: rgb(95, 133, 35) solid 3px;
-  max-width:1000px;
-  height: auto;
 }
 
 ul h2, ul h3 {
@@ -92,6 +88,8 @@ li {
   flex: 0 0 auto; /* Disable automatic width calculation */
   width: 25%; /* Set width to 25% of container */
   min-width: 150px; /* Set minimum width for responsiveness */
+  display: flex;
+  align-content: center;
 }
 
 li a {
